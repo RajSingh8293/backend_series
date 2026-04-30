@@ -10,7 +10,8 @@ function App() {
 
   useEffect(() => {
     async function fetchData() {
-      const url = "http://localhost:3000/api/user";
+      // const url = "http://localhost:3000/api/user";
+      const url = "https://backend-series-backend.vercel.app/api/user";
       try {
         const response = await fetch(url);
         if (!response.ok) {
