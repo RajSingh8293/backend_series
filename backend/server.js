@@ -6,7 +6,8 @@ const port = process.env.PORT || 3000;
 
 // Dynamic CORS configuration
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  // origin: ["http://localhost:5173"],
+  origin: ["https://backend-series-frontend.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
 };
 
